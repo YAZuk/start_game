@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(start_game main.cpp
         Unit.cpp
         Unit.h
-        types.h)
+        types.h
+        BehaviourFly.cpp
+        BehaviourFly.h
+        BehaviourMove.cpp
+        BehaviourMove.h)
